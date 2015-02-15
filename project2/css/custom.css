@@ -1,0 +1,362 @@
+/******************** 
+
+		*** Name: Vanessa Marrero
+		*** Assignment: Project 2
+		*** Class: Designing for Web Standards II
+		*** Date: February 12, 2015
+
+********************/
+
+/******************** MAIN PAGE STYLES ********************/ 
+
+body {
+	background: #FFFFFF;
+	color: #222222;
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+	font-weight: normal;
+	font-style: normal;
+	line-height: 150%;
+	position: relative;
+}
+
+section {
+	width:100%;
+	background-color: #FFFFFF;
+}
+
+.subheader {
+	font-size: 1.125rem;
+	font-weight: normal;
+	line-height: 1.6;
+	color: #777777; 
+	text-align: center;
+}
+
+.section-labels {
+	text-align: center;
+}
+
+.light{
+	font-weight:200 !important;
+}
+
+p {
+	font-size: 1rem;
+}
+
+/******************** HEADING STYLES ********************/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+}
+
+h1 {
+	color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 300; 
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+/******************** MAIN NAV STYLES ********************/
+
+.top-bar-section ul li > a {
+	font-family: 'Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+}
+
+
+.soc-media {
+	height: 1.5rem;
+}
+
+/******************** SECTION STYLES ********************/
+
+#about,#porfolio,#contact,#appointment, footer {
+	display: block;
+}
+
+#about,#portfolio,#contact,#appointment, footer {
+	padding: 4% 0 !important;
+}
+
+#about {
+	background: url(../img/bg.jpg) repeat-x top; /* img src=http://www.commentnation.com/background.php?MyFile=damask_wallpaper_seamless_background_red_and_black.php&ID=C101.php */
+	background-size: contain;
+	border-bottom: 5px solid #000000;
+	overflow: hidden;
+	position: relative;
+	min-height: 495px;
+}
+
+ #about .model img {
+    max-width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+#about .light{
+	margin: 1rem 0 1rem 0;
+	color: #FFFFFF;
+	font-size: 1.3rem;
+}
+
+#about p.lead {
+	font-size: 1.1rem;
+	line-height: 2;
+	color: #FFFFFF;
+}
+
+#about p.promo {
+	font-size: .9rem;
+	color: #CCCCCC;
+}
+
+/******************** GALLERY STYLES ********************/
+
+#portfolio{
+	background-color: #771011;
+}
+
+#portfolio h2 {
+	color: #CCCCCC;
+}
+
+#portfolio .subheader{
+	color: #CCCCCC;
+}
+
+/* OVERALL CAROUSEL STYLE*/
+.main-slide {
+	margin: auto;
+	width: 600px;
+	padding: 0px;
+}
+
+/* SLIDER STYLES */
+.gallery{
+	background-color: #771011;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.slider-for {
+	width: 600px;
+}
+
+.slick-prev, .slick-next {
+	font-family: 'Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+	font-size: 2em;
+	background-color: #333333;
+	top: 200px;
+	height: 50px;
+	width: 50px;
+	padding: 0 5px;
+}
+
+.slick-prev:hover , .slick-next:hover{
+	background-color: #5C5B5D;
+}
+
+.slick-prev {
+	position: absolute;
+	padding-left: 0;
+	left: 0px;
+}
+.slick-next {
+	position: absolute;
+	padding-right: 0;
+	right: 0px;
+}
+
+/* SLIDE STYLES*/
+.slick-slide .image {
+	width: 400px; 
+	margin: 0 auto;
+}
+
+.slick-slide img {
+	border: 5px solid #FFFFFF;
+	display: block;
+	width: 150px; 
+	height: 150px;
+}
+
+.slick-slide img.image{
+	width: 400px; 
+	height: 400px;
+}
+
+.slick-slide img.slick-loading {
+	border: 0;
+}
+
+.slick-slider {
+	margin:30px auto 50px;
+}
+
+/******************** CONTACT STYLES ********************/
+
+#contact {
+	background-color: #F0EFEF;
+}
+
+.contact-column {
+	text-align: center;
+}
+
+.contact-column img {
+  	padding: 20px;
+ 	max-height: 200px;
+ 	margin: 1rem 0 0 0;
+ }
+
+.contact-labels {
+	width: 100%;
+}
+
+.category-labels {
+	margin: 1rem 0 1.5rem 0; 
+	text-align: center;
+}
+
+ .contact-column p {
+ 	text-align: center;
+ 	line-height: 2
+ }
+
+.contact-column p.info {
+	margin-top: 2rem;
+ }
+
+.contact-column p.location {
+	margin-top: 2rem;
+ }
+
+/* HOURS TABLE STYLE */
+.hours {
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+
+.hours tr td {
+	text-align: center;
+}
+
+.hours tr td:first-child {
+	border-right: 1px solid #DDDDDD;
+}
+/******************** APPOINTMENT STYLES ********************/
+
+#appointment .button {
+	font-family: 'Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+	margin: 2% 0 0 0;
+	background-color: #771011;
+}
+
+#appointment form {
+	margin: 1.5rem 0 0 0;
+}
+
+/******************** FOOTER STYLES ********************/
+
+footer {
+	background-color: #333333;
+	color: #FFFFFF;
+	font-size: .5em;
+}
+
+/******************** MEDIA QUERY STYLES ********************/
+
+/* Smaller than 960px */
+@media only screen and (max-width: 959px) {
+	#about {
+		min-height: 400px;
+		max-height: 500px;
+	}	
+}
+	
+/* Tablet Portrait to 960px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#about {
+		height: auto;
+	}
+
+	#about .model img {
+		top: 0rem;
+	}
+
+	#about .light {
+		font-size: 1.2rem;
+	}
+
+	#about p.lead {
+		font-size: 1rem;
+	}
+
+	.main-slide {
+		width: 600px;
+	}
+}
+
+/* Mobile Landscape to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#about {
+		height: auto;
+	}
+	
+	#about .light {
+		font-size: 1.2rem;
+	}
+
+	#about p.lead {
+		font-size: 1rem;
+	}
+
+	.main-slide {
+		width: 600px;
+	}
+}
+
+/* All Mobile Sizes */ 
+@media only screen and (max-width: 767px) {
+	#about {
+		height: auto
+	}
+
+	#about .model img {
+		top: 5rem;
+	}
+
+	#about .light {
+		font-size: 1.2rem;
+	}
+
+	#about p.lead {
+		font-size: 1rem;
+	}
+
+	.main-slide {
+		width: auto;
+	}
+
+	.slider-for {
+		width: auto;
+	}
+}
+	
+/* Mobile Portrait to Mobile Landscape */
+@media only screen and (max-width: 479px) {
+	#about {
+		background-size: 100% 100%;
+	}
+
+	.main-slide {
+		width: auto;
+	}
+}
