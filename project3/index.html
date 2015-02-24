@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- 
+		  Name: Vanessa Marrero
+		  Assignment: Project 3
+		  Class: Designing for Web Standards II
+		  Date: February 19, 2015  
+		-->	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Vanessa Marrero">
+		<title>BG Stats</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			<nav>
+			  <ul class="logo">
+          <li>
+            <a href="#">BG Stats</a>
+          </li>
+        </ul>
+				<ul class="links">
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Search</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="content">
+			<div class="cube">
+			  <figure class="side top"><div class="dot center"></figure>
+			  <figure class="side left"><div class="dot dtop dleft"><div class="dot dbottom dright"></figure>
+			  <figure class="side right"><div class="dot dbottom dleft"><div class="dot center"><div class="dot dtop dright"></figure>
+			</div>
+			<h1>BG Stats</h1>
+			<h2 class="subheader">Board Game Stats, aka BG Stats, helps you find popular board games faster and easier than before!</h2>
+			<p>In order to find games that best appeal to certain audiences, we need information about our users. </p>
+			<p>Please fill out this quick survey below and help us figure out what users like you like best.</p>
+			<p>Happy Gaming!</p>
+			<!-- BEGIN FORM -->
+			<form>
+				<h3>Board Game Survey</h3>
+				<div class="accordion vertical">  
+					<section id="perinfo"> 
+						<h2><a href="#perinfo">Personal Information</a></h2>
+							<fieldset>
+								<legend>Section One:</legend>
+									<label>First Name<small>*required</small>	
+										<input type="text" name="fullName" id="firstName" autofocus required>
+									</label>
+									<label>Last Name
+										<input type="text" name="fullName" id="lastName">
+									</label>
+									<label>City of Residence
+										<input type="text" name="city">
+									</label>
+									<label>Country of Residence
+										<input type="text" name="country">
+									</label>							
+							</fieldset>
+					</section>
+					<section id="demoinfo"> 
+						<h2><a href="#demoinfo">Demographic Information</a></h2>
+							<fieldset>
+								<legend>Section Two:</legend>
+									<label>Birth Date
+										<input type="date">
+									</label>
+									<label>Gender <br>
+										<label>Male
+											<input type="radio" name="sex" value="male">
+										</label>	
+										<label>Female
+											<input type="radio" name="sex" value="female">
+										</label>
+									</label>
+									<label>Employment Status
+										<select name="employment">
+											<option value="self">Self-Employed</option>
+											<option value="wages">Employed for Wages</option>
+											<option value="unemp">Unemployed</option>
+											<option value="home">Homemaker</option>
+											<option value="student">Student</option>
+											<option value="milit">Military</option>
+											<option value="retired">Retired</option>
+											<option value="unable">Unable to Work</option>
+										</select>
+									</label>
+									<label>Relationship Status
+										<select name="relationship">
+											<option value="single">Single, Never Married</option>
+											<option value="married">Married/Domestic Partnership</option>
+											<option value="separated">Separated</option>
+											<option value="divorced">Divorced</option>
+											<option value="widowed">Widowed</option>
+										</select>
+									</label>
+									<label>Level of Education
+										<select name="education">
+											<option value="hsND">Some High School, No Diploma</option>
+											<option value="hs">High School or Equivalent</option>
+											<option value="collegeND">Some College, No Degree</option>
+											<option value="college">College/University, Degree</option>
+											<option value="grad">Graduate School</option>
+										</select>
+									</label>
+									<label>Ethnicity
+										<select name="ethnicity">
+											<option value="white">White</option>
+											<option value="hispanic">Hispanic or Latino</option>
+											<option value="black">Black or African American</option>
+											<option value="indian">Native American or American Indian</option>
+											<option value="asian">Asian or Pacific Islander</option>
+											<option value="other">Other</option>
+										</select>
+									</label>
+							</fieldset> 
+					</section>
+					<section id="gameinfo"> 
+						<h2><a href="#gameinfo">Game Information</a></h2>
+							<fieldset>
+								<legend>Section Three:</legend>
+									<label>How often do you play board games? <br>
+										<label for="onceMonth">
+											<input type="checkbox" name="howOften" value="onceMonth" id="onceMonth">Once a Month
+										</label>
+										<label for="twiceMonth">
+											<input type="checkbox" name="howOften" value="twiceMonth" id="twiceMonth">Twice a Month
+										</label>
+										<label for="onceWeek">
+											<input type="checkbox" name="howOften" value="onceWeek" id="onceWeek">Once a Week
+										</label>
+										<label for="twiceWeek">
+											<input type="checkbox" name="howOften" value="twiceWeek" id="twiceWeek">Twice a Week
+										</label>
+										<label for="everyDay">
+											<input type="checkbox" name="howOften" value="everyDay" id="everyDay">Every Day
+										</label>
+										<label for="never">
+											<input type="checkbox" name="howOften" value="never" id="never">Never
+										</label>
+										<label for="other">
+											<input type="checkbox" name="howOften" value="other" id="other">Other
+										</label>
+									</label>
+									<label>How much of a "boardgamer" do you consider yourself? <br>
+										<input type="range" name="scale" min="0" max="10">
+									</label>
+									<label>Why do you play board games?
+										<textarea name="message" placeholder="I play board games because..."></textarea>
+									</label>
+									<input type="submit" value="Submit"> 
+							</fieldset>
+					</section>
+				</div>
+			</form>
+			<!-- END FORM -->
+		</section>
+		<footer>
+			&copy Vanessa Marrero 2015
+		</footer>
+	</body>
+</html>
