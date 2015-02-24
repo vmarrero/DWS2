@@ -172,6 +172,9 @@ nav ul.links li > a:hover {
   left: -5em;
   color: #FFFFFF;
   font-size: 2em;
+  -webkit-transform: scale(.7,.7);
+  -moz-transform: scale(.7,.7);
+  -o-transform: scale(.7,.7);
   transform: scale(.7,.7);
 }
 
@@ -184,16 +187,25 @@ nav ul.links li > a:hover {
 
 .top {
   background-color: #9ACC53;
+  -webkit-transform: rotate(-45deg) skew(15deg, 15deg);
+  -moz-transform: rotate(-45deg) skew(15deg, 15deg);
+  -o-transform: rotate(-45deg) skew(15deg, 15deg);
   transform: rotate(-45deg) skew(15deg, 15deg);
 }
 
 .left {
   background-color: #8EC63F;
+  -webkit-transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+  -moz-transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+  -o-transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
   transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
 }
 
 .right {
   background-color: #80B239; 
+  -webkit-transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+  -moz-transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+  -o-transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
   transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
 }
 
@@ -661,7 +673,6 @@ footer {
 	.cube {
 	  top: -4em;
 	  left: -5em;
-	  transform: scale(.7,.7);
 	}
 
 	.vertical :target{   
@@ -715,9 +726,12 @@ footer {
 	}
 
 	.cube {
-	  top: -2.5em;
-	  left: -3.5em;
-	  transform: scale(.5,.5);
+		top: -2.5em;
+		left: -3.5em;
+		-webkit-transform: scale(.5,.5);
+  		-moz-transform: scale(.5,.5);
+  		-o-transform: scale(.5,.5);
+		transform: scale(.5,.5);
 	}
 
 	.vertical :target{   
